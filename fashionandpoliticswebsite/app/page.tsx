@@ -5,7 +5,7 @@ import FeaturedCarousel from "@/components/FeaturedCarousel";
 
 export default function HomePage() {
   return (
-    <div className="relative px-8 py-10 page-transition">
+    <div className="relative px-8 py-10 page-transition bg-[#D3D3D3]">
       <section className="grid gap-10 md:grid-cols-2 items-start">
         <div className="relative h-[70vh] ">
           <Image
@@ -13,21 +13,20 @@ export default function HomePage() {
             alt="Model"
             width={800}
             height={800}
-            className="object-cover"
+            className="object-cover bg-[#D3D3D3]"
           />
         </div>
         <div className="flex flex-col justify-between h-[70vh]">
           <div>
             <Image
-              src="/images/uoft-fp-logo.jpg"
+              src="/images/uoftfp-logo.png"
               alt="UofT Fashion and Politics Club Logo"
-              width={600}
-              height={600}
-              className="object-contain"
+              width={700}
+              height={700}
+              className="object-contain bg-[#D3D3D3]"
             />
           </div>
-
-          <div className="mt-12 px-8 justify-center">
+          <div className="mt-0 px-8 justify-center">
             <FeaturedCarousel />
           </div>
         </div>

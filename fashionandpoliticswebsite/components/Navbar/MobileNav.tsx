@@ -10,25 +10,25 @@ export default function MobileNav() {
         <Image
           src="/images/monogram.png"
           alt="FP monogram"
-          width={70}
-          height={70}
+          width={80}
+          height={80}
         />
       </Link>
 
       {/* Links spaced evenly */}
-      <div className="flex-1 flex mx-9 justify-center">
+      <div className="flex-1 flex justify-center">
         <Link href="/" className="hover:text-[#FF1FA9] active:text-[#FF1FA9]">
           HOME
         </Link>
         <Link
           href="/about"
-          className="ml-20 hover:text-[#FF1FA9] active:text-[#FF1FA9]"
+          className="ml-[17%] hover:text-[#FF1FA9] active:text-[#FF1FA9]"
         >
           ABOUT
         </Link>
         <Link
           href="/blog"
-          className="ml-20 hover:text-[#FF1FA9] active:text-[#FF1FA9]"
+          className="ml-[17%] hover:text-[#FF1FA9] active:text-[#FF1FA9]"
         >
           BLOG
         </Link>
