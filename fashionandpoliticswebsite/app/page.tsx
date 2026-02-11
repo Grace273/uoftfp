@@ -19,7 +19,7 @@ export default function HomePage() {
         <div className="flex flex-col justify-between h-[70vh]">
           <div>
             <Image
-              src="/images/logo.jpg"
+              src="/images/uoft-fp-logo.jpg"
               alt="UofT Fashion and Politics Club Logo"
               width={600}
               height={600}
