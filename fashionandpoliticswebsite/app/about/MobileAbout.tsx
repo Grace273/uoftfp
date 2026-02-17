@@ -70,8 +70,8 @@ export default function MobileAbout() {
             </p>
 
             <p className="mb-4">
-              The ultimate goal is to produce a culminating
-              magazine/anthology issue of everyone’s contributions.
+              The ultimate goal is to produce a culminating magazine/anthology
+              issue of everyone’s contributions.
             </p>
 
             <p>Interested? Reach out via Instagram @uoftfp 🙂</p>
@@ -81,7 +81,7 @@ export default function MobileAbout() {
 
       {/* TEAM SECTION */}
       <div className="bg-[#d7d7d7] px-4 py-12">
-        <h2 className="text-pink-500 uppercase tracking-wider font-bold text-lg mb-6">
+        <h2 className="text-pink-500 uppercase tracking-wider text-lg mb-6">
           Executive Team
         </h2>
 

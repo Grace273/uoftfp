@@ -51,7 +51,7 @@ export default function AboutPage() {
             }}
             className="py-16 px-10 bg-[#d7d7d7]"
           >
-            <h2 className="text-pink-500 uppercase tracking-wider font-bold text-xl mb-6">
+            <h2 className="text-pink-500 uppercase tracking-wider text-xl mb-6">
               Executive Team
             </h2>
 
@@ -123,87 +123,82 @@ export default function AboutPage() {
               />
             </div>
           </div>
-            <div className="bg-[#d7d7d7]">
-          {/* PANEL 3 — CREATIVE TEAM */}
-          <h2 className="text-pink-500 uppercase tracking-wider font-bold text-xl mb-6 bg-[#d7d7d7] pl-12">
+          <div className="bg-[#d7d7d7]">
+            {/* PANEL 3 — CREATIVE TEAM */}
+            <h2 className="text-pink-500 uppercase tracking-wider text-xl bg-[#d7d7d7] pl-12">
               Creative Team
             </h2>
-          <div
-            ref={(el) => {
-              if (el) panelsRef.current[3] = el;
-            }}
-            className="py-16 px-10 bg-[#d7d7d7]"
-          >
-            <div className="columns-2 gap-6">
-              <Image
-                src="/images/about-page/yvonne.png"
-                alt=""
-                width={700}
-                height={900}
-                className="mb-6 rotate-[-1deg] translate-y-1 shadow-lg"
-              />
+            <div
+              ref={(el) => {
+                if (el) panelsRef.current[3] = el;
+              }}
+              className="pt-6 pb-16 px-10 bg-[#d7d7d7]"
+            >
+              <div className="columns-2 gap-6">
+                <Image
+                  src="/images/about-page/yvonne.png"
+                  alt=""
+                  width={700}
+                  height={900}
+                  className="mb-6 rotate-[-1deg] translate-y-1 shadow-lg"
+                />
 
-              <Image
-                src="/images/about-page/andrea.png"
-                alt=""
-                width={700}
-                height={900}
-                className="mb-6 rotate-[2deg] translate-y-3 shadow-lg"
-              />
+                <Image
+                  src="/images/about-page/andrea.png"
+                  alt=""
+                  width={700}
+                  height={900}
+                  className="mb-6 rotate-[2deg] translate-y-3 shadow-lg"
+                />
 
-              <Image
-                src="/images/about-page/maya-grace.png"
-                alt=""
-                width={700}
-                height={900}
-                className="mb-6 rotate-[3deg] translate-y-1 shadow-lg"
-              />
+                <Image
+                  src="/images/about-page/maya-grace.png"
+                  alt=""
+                  width={700}
+                  height={900}
+                  className="mb-6 rotate-[3deg] translate-y-1 shadow-lg"
+                />
 
-              <Image
-  src="/images/about-page/maya-grace-text.png"
-  alt=""
-  width={700}
-  height={900}
-  className="mb-6"
-/>
-</div>
-
-
-
+                <Image
+                  src="/images/about-page/maya-grace-text.png"
+                  alt=""
+                  width={700}
+                  height={900}
+                  className="mb-6"
+                />
+              </div>
             </div>
           </div>
 
           {/* ARROW + PROMPT */}
-         <button
-  onClick={scrollToNextPanel}
-  className="absolute top-[65vh] left-1/2 -translate-x-1/2 z-20 flex flex-col items-center drop-shadow-lg text-white animate-bounce"
->
-
-  <span className="text-5xl">↓</span>
-  <span className="text-xs lowercase tracking-wide opacity-70 mt-2">
-    scroll to see our executive team
-  </span>
-</button>
-
+          <button
+            onClick={scrollToNextPanel}
+            className="absolute top-[65vh] left-1/2 -translate-x-1/2 z-20 flex flex-col items-center drop-shadow-lg text-white animate-bounce"
+          >
+            <span className="text-5xl">↓</span>
+            <span className="text-xs lowercase tracking-wide opacity-70 mt-2">
+              scroll to see our executive team
+            </span>
+          </button>
         </div>
 
         {/* RIGHT STICKY ABOUT-US SIDE */}
-<div className="relative p-12 sticky top-0 h-screen flex flex-col justify-center overflow-hidden">
-  {/* BACKGROUND IMAGE WRAPPER */}
-  <div className="absolute inset-0 z-0 pointer-events-none">
-    <Image
-      src="/images/about-page/chains2.png"
-      alt=""
-      fill
-      className="object-cover"
-      sizes="50vw"
-    />
-  </div>
+        <div className="relative p-12 sticky top-0 h-screen flex flex-col justify-center overflow-hidden">
+          {/* BACKGROUND IMAGE WRAPPER */}
+          <div className="absolute inset-0 z-0 pointer-events-none">
+            <Image
+              src="/images/about-page/chains2.png"
+              alt=""
+              fill
+              className="object-cover"
+              sizes="50vw"
+            />
+          </div>
 
-  {/* FOREGROUND CONTENT */}
-  <div className="relative z-10">
-    <h1
-      className="
+          {/* FOREGROUND CONTENT */}
+          <div className="relative z-10">
+            <h1
+              className="
         font-[Anton]
         text-[#1c1c1c]
         uppercase
@@ -215,12 +210,12 @@ export default function AboutPage() {
         lg:text-[120px]
         leading-[0.9]
       "
-    >
-      ABOUT US
-    </h1>
+            >
+              ABOUT US
+            </h1>
 
-    <div
-      className="
+            <div
+              className="
         bg-[#f5d9e8]
         p-8
         rounded-lg
@@ -232,47 +227,44 @@ export default function AboutPage() {
         max-h-[55vh]
         overflow-y-auto
       "
-      style={{ fontFamily: "HelveticaWorld, Helvetica, Arial, sans-serif" }}
-    >
-      <p className="mb-5">
-        The University of Toronto’s Fashion and Politics Club strives to
-        provide a space for peers to explore and engage with the
-        intersection of fashion & culture, media, society, and politics.
-      </p>
+              style={{
+                fontFamily: "HelveticaWorld, Helvetica, Arial, sans-serif",
+              }}
+            >
+              <p className="mb-5">
+                The University of Toronto’s Fashion and Politics Club strives to
+                provide a space for peers to explore and engage with the
+                intersection of fashion & culture, media, society, and politics.
+              </p>
 
-      <p className="mb-5">
-        Through our biweekly meetings, we unpack questions such as how
-        fashion reflects social change, why trends carry political meaning,
-        and what role our clothing plays in shaping identity and power.
-      </p>
+              <p className="mb-5">
+                Through our biweekly meetings, we unpack questions such as how
+                fashion reflects social change, why trends carry political
+                meaning, and what role our clothing plays in shaping identity
+                and power.
+              </p>
 
-      <p className="mb-5">
-        The ultimate goal is to produce a culminating
-        magazine/anthology issue of everyone’s contributions.
-      </p>
+              <p className="mb-5">
+                The ultimate goal is to produce a culminating magazine/anthology
+                issue of everyone’s contributions.
+              </p>
 
-      <p>
-        Interested? Reach out via Instagram @uoftfp 🙂
-      </p>
-    </div>
-  </div>
-</div>
-
+              <p>Interested? Reach out via Instagram @uoftfp 🙂</p>
+            </div>
+          </div>
+        </div>
       </div>
 
-
-{/* FULL-WIDTH BOTTOM SECTION — SHORTER + PEOPLE VISIBLE */}
-<div className="relative w-screen h-[75vh] bg-black overflow-hidden">
-  <Image
-    src="/images/about-page/about-bottom.png"
-    alt=""
-    fill
-    className="object-cover object-top"
-    sizes="100vw"
-  />
-</div>
-
-
+      {/* FULL-WIDTH BOTTOM SECTION — SHORTER + PEOPLE VISIBLE */}
+      <div className="relative w-screen h-[75vh] bg-black overflow-hidden">
+        <Image
+          src="/images/about-page/about-bottom.png"
+          alt=""
+          fill
+          className="object-cover object-top"
+          sizes="100vw"
+        />
+      </div>
     </div>
   );
 }

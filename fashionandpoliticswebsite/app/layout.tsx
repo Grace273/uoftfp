@@ -28,7 +28,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className="m-0 p-0">
+      <body>
         {/* Navbar removed from layout flow */}
         <div className="fixed top-0 left-0 w-full z-50">
           <Navbar />
