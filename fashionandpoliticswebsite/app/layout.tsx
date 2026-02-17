@@ -28,7 +28,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className="bg-[var(--grey)] text-[var(--black)] m-0 p-0">
+      <body className="m-0 p-0">
         {/* Navbar removed from layout flow */}
         <div className="fixed top-0 left-0 w-full z-50">
           <Navbar />

@@ -5,9 +5,9 @@ import FeaturedCarousel from "@/components/FeaturedCarousel";
 
 export default function HomePage() {
   return (
-    <div className="relative px-8 py-10 page-transition bg-[#D3D3D3]">
-      <section className="grid gap-10 md:grid-cols-2 items-start">
-        <div className="relative h-[70vh] ">
+    <div className="relative h-full sm:py-0 page-transition bg-[#D3D3D3]">
+      <section className="grid md:grid-cols-2">
+        <div className="relative h-full">
           <Image
             src="/images/homepage-girl.png"
             alt="Model"
@@ -16,17 +16,17 @@ export default function HomePage() {
             className="object-cover bg-[#D3D3D3]"
           />
         </div>
-        <div className="flex flex-col justify-between h-[70vh]">
+        <div className="flex flex-col justify-center items-center md:mt-[15vh] gap-[7vh] h-[70vh]">
           <div>
             <Image
-              src="/images/uoftfp-logo.png"
+              src="/images/uoftfp-logo.jpg"
               alt="UofT Fashion and Politics Club Logo"
-              width={700}
-              height={700}
-              className="object-contain bg-[#D3D3D3]"
+              width={400}
+              height={400}
+              className="object-contain"
             />
           </div>
-          <div className="mt-0 px-8 justify-center">
+          <div>
             <FeaturedCarousel />
           </div>
         </div>
