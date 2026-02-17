@@ -16,40 +16,46 @@ export default function DesktopMenu({ isOpen, setIsOpen }: Props) {
           isOpen ? "translate-x-0" : "-translate-x-full"
         }`}
       >
-        <div className="flex flex-col items-center mt-20 gap-13 text-lg">
-          <Link href="/">
-            <Image
-              src="/images/monogram.png"
-              alt="FP monogram"
-              width={150}
-              height={150}
-            />
-          </Link>
-          <Link
-            href="/"
-            onClick={() => setIsOpen(false)}
-            className="hover:text-[#FF1FA9]"
-          >
-            HOME
-          </Link>
-          <Link
-            href="/about"
-            onClick={() => setIsOpen(false)}
-            className="hover:text-[#FF1FA9]"
-          >
-            ABOUT
-          </Link>
-          <Link
-            href="/blog"
-            onClick={() => setIsOpen(false)}
-            className="hover:text-[#FF1FA9]"
-          >
-            BLOG
-          </Link>
+        <div className="h-full flex flex-col justify-between">
+          <div className="flex flex-col items-center mt-20 gap-13 text-lg">
+            <Link href="/">
+              <Image
+                src="/images/monogram.png"
+                alt="FP monogram"
+                width={150}
+                height={150}
+              />
+            </Link>
+            <Link
+              href="/"
+              onClick={() => setIsOpen(false)}
+              className="hover:text-[#FF1FA9]"
+            >
+              HOME
+            </Link>
+            <Link
+              href="/about"
+              onClick={() => setIsOpen(false)}
+              className="hover:text-[#FF1FA9]"
+            >
+              ABOUT
+            </Link>
+            <Link
+              href="/blog"
+              onClick={() => setIsOpen(false)}
+              className="hover:text-[#FF1FA9]"
+            >
+              BLOG
+            </Link>
+          </div>
+
+          <div className="flex flex-col items-center mb-[10vh]">
+            <p className="font-helvetica text-xs">
+              UOFT <br />
+              FASHION <br /> &amp; <br /> POLITICS
+            </p>
+          </div>
         </div>
-        <p className="mt-60 mx-30 flex items-center justify-center font-helvetica text-xs">
-          UOFT FASHION &amp; POLITICS
-        </p>
       </div>
 
       {/* Overlay */}
