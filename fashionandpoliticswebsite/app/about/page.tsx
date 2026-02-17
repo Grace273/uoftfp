@@ -21,7 +21,7 @@ export default function AboutResponsive() {
         style={{
           fontFamily: "HelveticaWorld, Helvetica,  Arial, sans-serif",
         }}
-        className="text-[10px] md:text-[14px] flex items-center px-[3vh] mt-[10vh] gap-[2vh] justify-between"
+        className="text-[5px] md:text-[14px] flex items-center px-[3vh] mt-[10vh] gap-[2vh] justify-between"
       >
         <div className="flex gap-[2vh] md:gap-[20vh]">
           <div className="hover:text-[#ff1fa9]">
