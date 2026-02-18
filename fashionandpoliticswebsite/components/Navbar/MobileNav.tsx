@@ -4,7 +4,7 @@ import Link from "next/link";
 
 export default function MobileNav() {
   return (
-    <nav className="flex items-center px-4 font-helvetica bg-[#d2d2d2]">
+    <nav className="flex items-center px-[5%] font-helvetica bg-[#d2d2d2]">
       {/* Monogram on the left */}
       <Link href="/">
         <Image
@@ -17,18 +17,21 @@ export default function MobileNav() {
 
       {/* Links spaced evenly */}
       <div className="flex-1 flex justify-center">
-        <Link href="/" className="hover:text-[#FF1FA9] active:text-[#FF1FA9]">
+        <Link
+          href="/"
+          className="ml-[10%] hover:text-[#FF1FA9] active:text-[#FF1FA9]"
+        >
           HOME
         </Link>
         <Link
           href="/about"
-          className="ml-[17%] hover:text-[#FF1FA9] active:text-[#FF1FA9]"
+          className="ml-[20%] hover:text-[#FF1FA9] active:text-[#FF1FA9]"
         >
           ABOUT
         </Link>
         <Link
           href="/blog"
-          className="ml-[17%] hover:text-[#FF1FA9] active:text-[#FF1FA9]"
+          className="ml-[20%] hover:text-[#FF1FA9] active:text-[#FF1FA9]"
         >
           BLOG
         </Link>

@@ -65,14 +65,6 @@ export default function AboutPage() {
               />
 
               <Image
-                src="/images/about-page/fareena.png"
-                alt=""
-                width={700}
-                height={900}
-                className="mb-6 rotate-[2deg] translate-y-3 shadow-lg"
-              />
-
-              <Image
                 src="/images/about-page/matilda.png"
                 alt=""
                 width={700}
@@ -81,11 +73,19 @@ export default function AboutPage() {
               />
 
               <Image
+                src="/images/about-page/fareena.png"
+                alt=""
+                width={700}
+                height={900}
+                className="mb-6 rotate-[2deg] translate-y-1 shadow-lg"
+              />
+
+              <Image
                 src="/images/about-page/katelyn.png"
                 alt=""
                 width={700}
                 height={900}
-                className="mb-6 rotate-[3deg] shadow-lg"
+                className="mb-6 rotate-[1deg] shadow-lg"
               />
             </div>
           </div>
@@ -103,7 +103,7 @@ export default function AboutPage() {
                 alt=""
                 width={700}
                 height={900}
-                className="mb-6 rotate-[1deg] translate-y-2 shadow-lg"
+                className="mb-6 rotate-[1deg] shadow-lg"
               />
 
               <Image
@@ -119,7 +119,7 @@ export default function AboutPage() {
                 alt=""
                 width={700}
                 height={900}
-                className="mb-6 rotate-[-3deg] translate-y-4 shadow-lg"
+                className="mb-6 rotate-[-3deg] shadow-lg"
               />
             </div>
           </div>
