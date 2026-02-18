@@ -34,7 +34,7 @@ export default function MobileBlog({
           height={400}
           className="relative"
         />
-        <div className="absolute z-10 w-[70%] mr-8 h-[60%] mt-10 bg-[#ffebf7] overflow-y-auto">
+        <div className="absolute z-10 w-[65%] mr-8 h-[60%] mt-10 bg-[#ffebf7] overflow-y-auto">
           {/* make this dynamic to receive a list of preview */}
           <div className="ml-7 mr-8 mt-5">
             {" "}

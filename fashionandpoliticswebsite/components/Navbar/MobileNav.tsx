@@ -19,19 +19,19 @@ export default function MobileNav() {
       <div className="flex-1 flex justify-center">
         <Link
           href="/"
-          className="ml-[10%] hover:text-[#FF1FA9] active:text-[#FF1FA9]"
+          className="ml-[5%] hover:text-[#FF1FA9] active:text-[#FF1FA9]"
         >
           HOME
         </Link>
         <Link
           href="/about"
-          className="ml-[20%] hover:text-[#FF1FA9] active:text-[#FF1FA9]"
+          className="ml-[15%] hover:text-[#FF1FA9] active:text-[#FF1FA9]"
         >
           ABOUT
         </Link>
         <Link
           href="/blog"
-          className="ml-[20%] hover:text-[#FF1FA9] active:text-[#FF1FA9]"
+          className="ml-[15%] hover:text-[#FF1FA9] active:text-[#FF1FA9]"
         >
           BLOG
         </Link>
