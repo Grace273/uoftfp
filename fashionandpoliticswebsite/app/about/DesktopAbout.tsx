@@ -49,7 +49,7 @@ export default function AboutPage() {
             ref={(el) => {
               if (el) panelsRef.current[1] = el;
             }}
-            className="py-16 px-10 bg-[#d7d7d7]"
+            className="pt-16 pb-6 px-10 bg-[#d7d7d7]"
           >
             <h2 className="text-pink-500 uppercase tracking-wider text-xl mb-6">
               Executive Team
@@ -95,7 +95,7 @@ export default function AboutPage() {
             ref={(el) => {
               if (el) panelsRef.current[2] = el;
             }}
-            className="py-16 px-10 bg-[#d7d7d7]"
+            className="pb-16 px-10 bg-[#d7d7d7]"
           >
             <div className="columns-2 gap-6">
               <Image
