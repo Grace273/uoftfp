@@ -19,9 +19,9 @@ export default function MobileHome() {
         <Image
           src="/images/uoftfp-logo-transparent.png"
           alt="UofT Fashion and Politics Club Logo"
-          width={400}
-          height={400}
-          className="object-contain mt-[5vh]"
+          width={350}
+          height={350}
+          className="object-contain ml-[0.5vh] mt-[5vh]"
           priority
         />
 
