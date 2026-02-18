@@ -31,7 +31,7 @@ export default function MobileNav() {
         </Link>
         <Link
           href="/blog"
-          className="ml-[15%] mr-[5%] hover:text-[#FF1FA9] active:text-[#FF1FA9]"
+          className="ml-[15%] mr-[2%] hover:text-[#FF1FA9] active:text-[#FF1FA9]"
         >
           BLOG
         </Link>
