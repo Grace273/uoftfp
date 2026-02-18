@@ -42,7 +42,7 @@ export default function MobileBlog({
             <BlogArticlePreview title={title} author={author} date={date} />
             <BlogArticlePreview title={title} author={author} date={date} />
             <BlogArticlePreview title={title} author={author} date={date} /> */}
-            <div className="text-5xl w-full h-full overflow-y-auto p-5">
+            <div className="text-3xl w-full h-full overflow-y-auto p-5">
               COMING SOON...
             </div>
           </div>
