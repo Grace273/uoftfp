@@ -10,8 +10,8 @@ export default function MobileNav() {
         <Image
           src="/images/monogram.png"
           alt="FP monogram"
-          width={80}
-          height={80}
+          width={70}
+          height={70}
         />
       </Link>
 
@@ -31,7 +31,7 @@ export default function MobileNav() {
         </Link>
         <Link
           href="/blog"
-          className="ml-[15%] hover:text-[#FF1FA9] active:text-[#FF1FA9]"
+          className="ml-[15%] mr-[5%] hover:text-[#FF1FA9] active:text-[#FF1FA9]"
         >
           BLOG
         </Link>
