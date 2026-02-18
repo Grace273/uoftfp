@@ -111,11 +111,39 @@ export default function MobileAbout() {
             height={900}
           />
           <Image
-            src="/images/about-page/matilda.png"
-            alt="Matilda"
+            src="/images/about-page/daisy.png"
+            alt="Daisy"
             width={700}
             height={900}
           />
+          <Image
+            src="/images/about-page/kate.png"
+            alt="Kate"
+            width={700}
+            height={900}
+          />
+          <Image
+            src="/images/about-page/danny.png"
+            alt="Danny"
+            width={700}
+            height={900}
+          />
+          <h2 className="text-pink-500 uppercase tracking-wider text-lg mt-6">
+            Creative Team
+          </h2>
+          <Image
+            src="/images/about-page/yvonne.png"
+            alt="Yvonne"
+            width={700}
+            height={900}
+          />
+          <Image
+            src="/images/about-page/andrea.png"
+            alt="Andrea"
+            width={700}
+            height={900}
+          />
+
           <Image
             src="/images/about-page/maya-grace.png"
             alt="Maya-Grace"
