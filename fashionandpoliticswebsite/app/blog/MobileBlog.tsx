@@ -22,7 +22,7 @@ export default function MobileBlog({
   return (
     <>
       <h1
-        className={`${anton.className} text-white text-8xl mt-20 mb-5 mr-15 flex justify-end`}
+        className={`${anton.className} text-white text-8xl mt-[15vh] mb-[5vh] mr-15 flex justify-end`}
       >
         BLOG
       </h1>
@@ -30,11 +30,11 @@ export default function MobileBlog({
         <Image
           src="/images/blog-page/mobile-blank-folder.jpg"
           alt="blank page"
-          width={450}
-          height={600}
+          width={400}
+          height={400}
           className="relative"
         />
-        <div className="absolute z-10 w-85 mr-8 h-135 mt-10 bg-[#ffebf7] overflow-y-auto">
+        <div className="absolute z-10 w-[60%] mr-8 h-[55%] mt-10 bg-[#ffebf7] overflow-y-auto">
           {/* make this dynamic to receive a list of preview */}
           <div className="ml-7 mr-8 mt-5">
             {" "}
@@ -42,7 +42,7 @@ export default function MobileBlog({
             <BlogArticlePreview title={title} author={author} date={date} />
             <BlogArticlePreview title={title} author={author} date={date} />
             <BlogArticlePreview title={title} author={author} date={date} /> */}
-            <div className="text-6xl w-full h-full overflow-y-auto p-5">
+            <div className="text-5xl w-full h-full overflow-y-auto p-5">
               COMING SOON...
             </div>
           </div>
