@@ -21,7 +21,7 @@ export default function MobileHome() {
           alt="UofT Fashion and Politics Club Logo"
           width={350}
           height={350}
-          className="object-contain ml-[0.5vh] mt-[5vh]"
+          className="object-contain ml-[1vh] mt-[5vh]"
           priority
         />
 
