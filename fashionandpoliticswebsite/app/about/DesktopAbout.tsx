@@ -87,27 +87,9 @@ export default function AboutPage() {
                 height={900}
                 className="mb-6 rotate-[0deg] shadow-lg w-full h-auto"
               />
-            </div>
-          </div>
 
-          {/* PANEL 2 — FINANCE & FUNDRAISING */}
-          <div
-            ref={(el) => {
-              if (el) panelsRef.current[2] = el;
-            }}
-            className="pb-16 px-10 bg-[#d7d7d7]"
-          >
-            <div className="columns-2 gap-6">
               <Image
                 src="/images/about-page/daisy.png"
-                alt=""
-                width={700}
-                height={900}
-                className="mb-6 rotate-[0deg] shadow-lg w-full h-auto"
-              />
-
-              <Image
-                src="/images/about-page/danny.png"
                 alt=""
                 width={700}
                 height={900}
@@ -121,8 +103,17 @@ export default function AboutPage() {
                 height={900}
                 className="mb-6 rotate-[0deg] shadow-lg w-full h-auto"
               />
+
+              <Image
+                src="/images/about-page/danny.png"
+                alt=""
+                width={700}
+                height={900}
+                className="mb-6 rotate-[0deg] shadow-lg w-full h-auto"
+              />
             </div>
           </div>
+
           <div className="bg-[#d7d7d7]">
             {/* PANEL 3 — CREATIVE TEAM */}
             <h2 className="text-pink-500 uppercase tracking-wider text-xl bg-[#d7d7d7] pl-12">
