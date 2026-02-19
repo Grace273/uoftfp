@@ -61,7 +61,7 @@ export default function AboutPage() {
                 alt=""
                 width={700}
                 height={900}
-                className="mb-6 rotate-[-2deg] shadow-lg"
+                className="mb-6 rotate-[-2deg] shadow-lg w-full h-auto"
               />
 
               <Image
@@ -69,7 +69,7 @@ export default function AboutPage() {
                 alt=""
                 width={700}
                 height={900}
-                className="mb-6 rotate-[-1deg] shadow-lg"
+                className="mb-6 rotate-[-1deg] shadow-lg w-full h-auto"
               />
 
               <Image
@@ -77,7 +77,7 @@ export default function AboutPage() {
                 alt=""
                 width={700}
                 height={900}
-                className="mb-6 rotate-[2deg] shadow-lg"
+                className="mb-6 rotate-[2deg] shadow-lg w-full h-auto"
               />
 
               <Image
@@ -85,7 +85,7 @@ export default function AboutPage() {
                 alt=""
                 width={700}
                 height={900}
-                className="mb-6 rotate-[1deg] shadow-lg"
+                className="mb-6 rotate-[1deg] shadow-lg w-full h-auto"
               />
             </div>
           </div>
@@ -103,7 +103,7 @@ export default function AboutPage() {
                 alt=""
                 width={700}
                 height={900}
-                className="mb-6 rotate-[1deg] shadow-lg"
+                className="mb-6 rotate-[1deg] shadow-lg w-full h-auto"
               />
 
               <Image
@@ -111,7 +111,7 @@ export default function AboutPage() {
                 alt=""
                 width={700}
                 height={900}
-                className="mb-6 rotate-[-3deg] shadow-lg"
+                className="mb-6 rotate-[-3deg] shadow-lg w-full h-auto"
               />
 
               <Image
@@ -119,7 +119,7 @@ export default function AboutPage() {
                 alt=""
                 width={700}
                 height={900}
-                className="mb-6 rotate-[-3deg] shadow-lg"
+                className="mb-6 rotate-[-3deg] shadow-lg w-full h-auto"
               />
             </div>
           </div>
@@ -140,7 +140,7 @@ export default function AboutPage() {
                   alt=""
                   width={700}
                   height={900}
-                  className="mb-6 rotate-[-1deg] shadow-lg"
+                  className="mb-6 rotate-[-1deg] shadow-lg w-full h-auto"
                 />
 
                 <Image
@@ -148,7 +148,7 @@ export default function AboutPage() {
                   alt=""
                   width={700}
                   height={900}
-                  className="mb-6 rotate-[3deg] shadow-lg"
+                  className="mb-6 rotate-[3deg] shadow-lg w-full h-auto"
                 />
 
                 <Image
@@ -156,7 +156,7 @@ export default function AboutPage() {
                   alt=""
                   width={700}
                   height={900}
-                  className="mb-6 rotate-[2deg] shadow-lg"
+                  className="mb-6 rotate-[2deg] shadow-lg w-full h-auto"
                 />
                 <br></br>
                 <br></br>
