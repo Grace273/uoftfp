@@ -55,7 +55,7 @@ export default function DesktopBlog({
       {/* Right: BLOG text */}
       <div className="flex-1 flex justify-end items-start pr-10 w-full">
         <h1
-          className={`${anton.className}  text-[130px] absolute text-white text-9xl mt-20 right-[4%]`}
+          className={`${anton.className}  text-[130px] absolute text-white text-9xl mt-16 right-[4%]`}
         >
           BLOG
         </h1>
