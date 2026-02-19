@@ -12,11 +12,13 @@ export default function DesktopMenu({ isOpen, setIsOpen }: Props) {
     <>
       {/* Slide-in Menu */}
       <div
-        className={`fixed top-0 left-0 h-full w-64 bg-[#d2d2d2] text-[#1c1c1c] shadow-lg z-40 transform transition-transform duration-300 ${
+        //  w-64 before
+        className={`fixed top-0 left-0 h-full w-62 bg-[#d2d2d2] text-[#1c1c1c] shadow-lg z-40 transform transition-transform duration-300 ${
           isOpen ? "translate-x-0" : "-translate-x-full"
         }`}
       >
-        <div className="h-full flex flex-col justify-between">
+        {/* ml-0 before */}
+        <div className="h-full flex flex-col ml-[-5vh] justify-between">
           <div className="flex flex-col items-center mt-20 gap-13 text-lg">
             <Link href="/">
               <Image
