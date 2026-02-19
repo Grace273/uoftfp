@@ -55,7 +55,7 @@ export default function AboutPage() {
               Executive Team
             </h2>
 
-            <div className="columns-2 gap-6">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               <Image
                 src="/images/about-page/olga.png"
                 alt=""
@@ -148,7 +148,7 @@ export default function AboutPage() {
                   alt=""
                   width={700}
                   height={900}
-                  className="mb-6 rotate-[1deg] shadow-lg w-full h-auto"
+                  className="mb-6 rotate-[0deg] shadow-lg w-full h-auto"
                 />
 
                 <Image
