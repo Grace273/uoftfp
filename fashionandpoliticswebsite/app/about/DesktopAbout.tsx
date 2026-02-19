@@ -23,7 +23,7 @@ export default function AboutPage() {
   return (
     <div className="w-full">
       {/* TWO COLUMN SECTION */}
-      <div className="grid grid-cols-1 md:grid-cols-2">
+      <div className="grid grid-cols-1 lg:grid-cols-2">
         {/* LEFT SCROLL SIDE */}
         <div
           ref={containerRef}
@@ -60,8 +60,8 @@ export default function AboutPage() {
                 src="/images/about-page/olga.png"
                 alt=""
                 width={700}
-                height={900}
-                className="mb-6 rotate-[-2deg] shadow-lg w-full h-auto"
+                height={700}
+                className="mb-6 rotate-[-2deg] shadow-lg w-full h-full"
               />
 
               <Image
