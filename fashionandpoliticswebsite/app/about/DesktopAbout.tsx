@@ -61,15 +61,7 @@ export default function AboutPage() {
                 alt=""
                 width={700}
                 height={700}
-                className="mb-6 rotate-[0deg] shadow-lg w-full h-full"
-              />
-
-              <Image
-                src="/images/about-page/matilda.png"
-                alt=""
-                width={700}
-                height={900}
-                className="mb-6 rotate-[0deg] shadow-lg w-full h-auto"
+                className="mb-6 rotate-[-1deg] shadow-lg"
               />
 
               <Image
@@ -77,7 +69,15 @@ export default function AboutPage() {
                 alt=""
                 width={700}
                 height={900}
-                className="mb-6 rotate-[0deg] shadow-lg w-full h-auto"
+                className="mb-6 rotate-[1deg] shadow-lg"
+              />
+
+              <Image
+                src="/images/about-page/matilda.png"
+                alt=""
+                width={700}
+                height={900}
+                className="mb-6 rotate-[0deg] shadow-lg"
               />
 
               <Image
@@ -85,7 +85,7 @@ export default function AboutPage() {
                 alt=""
                 width={700}
                 height={900}
-                className="mb-6 rotate-[0deg] shadow-lg w-full h-auto"
+                className="mb-6 rotate-[0deg] shadow-lg"
               />
 
               <Image
@@ -93,7 +93,7 @@ export default function AboutPage() {
                 alt=""
                 width={700}
                 height={900}
-                className="mb-6 rotate-[0deg] shadow-lg w-full h-auto"
+                className="mb-6 rotate-[0deg] shadow-lg"
               />
 
               <Image
@@ -101,7 +101,7 @@ export default function AboutPage() {
                 alt=""
                 width={700}
                 height={900}
-                className="mb-6 rotate-[0deg] shadow-lg w-full h-auto"
+                className="mb-6 rotate-[0deg] shadow-lg"
               />
 
               <Image
@@ -109,7 +109,7 @@ export default function AboutPage() {
                 alt=""
                 width={700}
                 height={900}
-                className="mb-6 rotate-[0deg] shadow-lg w-full h-auto"
+                className="mb-6 rotate-[0deg] shadow-lg"
               />
             </div>
           </div>
@@ -131,7 +131,7 @@ export default function AboutPage() {
                   alt=""
                   width={700}
                   height={900}
-                  className="mb-6 rotate-[0deg] shadow-lg w-full h-auto"
+                  className="mb-6 rotate-[0deg] shadow-lg"
                 />
 
                 <Image
@@ -139,7 +139,7 @@ export default function AboutPage() {
                   alt=""
                   width={700}
                   height={900}
-                  className="mb-6 rotate-[0deg] shadow-lg w-full h-auto"
+                  className="mb-6 rotate-[0deg] shadow-lg"
                 />
 
                 <Image
@@ -147,7 +147,7 @@ export default function AboutPage() {
                   alt=""
                   width={700}
                   height={900}
-                  className="mb-6 rotate-[0deg] shadow-lg w-full h-auto"
+                  className="mb-6 rotate-[0deg] shadow-lg"
                 />
                 <br></br>
                 <br></br>
