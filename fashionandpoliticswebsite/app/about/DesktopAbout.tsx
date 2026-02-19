@@ -144,14 +144,6 @@ export default function AboutPage() {
                 />
 
                 <Image
-                  src="/images/about-page/andrea.png"
-                  alt=""
-                  width={700}
-                  height={900}
-                  className="mb-6 rotate-[2deg] translate-y-3 shadow-lg"
-                />
-
-                <Image
                   src="/images/about-page/maya-grace.png"
                   alt=""
                   width={700}
@@ -159,6 +151,15 @@ export default function AboutPage() {
                   className="mb-6 rotate-[3deg] translate-y-1 shadow-lg"
                 />
 
+                <Image
+                  src="/images/about-page/andrea.png"
+                  alt=""
+                  width={700}
+                  height={900}
+                  className="mb-6 rotate-[2deg] translate-y-3 shadow-lg"
+                />
+                <br></br>
+                <br></br>
                 <Image
                   src="/images/about-page/maya-grace-text.png"
                   alt=""
