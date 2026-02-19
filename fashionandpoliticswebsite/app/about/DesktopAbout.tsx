@@ -147,7 +147,7 @@ export default function AboutPage() {
                   alt=""
                   width={700}
                   height={900}
-                  className="mb-6 rotate-[-1deg] shadow-lg"
+                  className="mb-6 rotate-[0deg] shadow-lg"
                 />
                 <br></br>
                 <br></br>
