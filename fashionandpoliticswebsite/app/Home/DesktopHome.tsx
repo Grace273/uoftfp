@@ -15,7 +15,7 @@ export default function DesktopHome() {
             className="object-contain bg-[#D3D3D3] ml-[4vh]"
           />
         </div>
-        <div className="flex flex-col justify-center items-center md:mt-[15vh] gap-[7vh] h-[70vh]">
+        <div className="z-20 mr-[4vh] flex flex-col justify-center items-center md:mt-[15vh] gap-[7vh] h-[70vh]">
           <div>
             <Image
               src="/images/uoftfp-logo.jpg"

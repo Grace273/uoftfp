@@ -24,7 +24,7 @@ export default function DesktopBlog({
       {/* Left: folder + preview */}
       <div className="relative mt-40 ml-30">
         <Image
-          src="/images/blog-page/blank-folder.jpg"
+          src="/images/blog-page/blank-folder-2.jpg"
           alt="blank page"
           width={850}
           height={850}
