@@ -69,7 +69,7 @@ export default function AboutPage() {
                 alt=""
                 width={700}
                 height={900}
-                className="mb-6 rotate-[-1deg] translate-y-1 shadow-lg"
+                className="mb-6 rotate-[-1deg] shadow-lg"
               />
 
               <Image
@@ -77,7 +77,7 @@ export default function AboutPage() {
                 alt=""
                 width={700}
                 height={900}
-                className="mb-6 rotate-[2deg] translate-y-1 shadow-lg"
+                className="mb-6 rotate-[2deg] shadow-lg"
               />
 
               <Image
@@ -111,7 +111,7 @@ export default function AboutPage() {
                 alt=""
                 width={700}
                 height={900}
-                className="mb-6 rotate-[-3deg] translate-y-4 shadow-lg"
+                className="mb-6 rotate-[-3deg] shadow-lg"
               />
 
               <Image
@@ -140,7 +140,7 @@ export default function AboutPage() {
                   alt=""
                   width={700}
                   height={900}
-                  className="mb-6 rotate-[-1deg] translate-y-1 shadow-lg"
+                  className="mb-6 rotate-[-1deg] shadow-lg"
                 />
 
                 <Image
@@ -148,7 +148,7 @@ export default function AboutPage() {
                   alt=""
                   width={700}
                   height={900}
-                  className="mb-6 rotate-[3deg] translate-y-1 shadow-lg"
+                  className="mb-6 rotate-[3deg] shadow-lg"
                 />
 
                 <Image
@@ -156,7 +156,7 @@ export default function AboutPage() {
                   alt=""
                   width={700}
                   height={900}
-                  className="mb-6 rotate-[2deg] translate-y-3 shadow-lg"
+                  className="mb-6 rotate-[2deg] shadow-lg"
                 />
                 <br></br>
                 <br></br>
