@@ -12,7 +12,7 @@ export default function DesktopHome() {
             alt="Model"
             width={850}
             height={850}
-            className="object-contain bg-[#D3D3D3] ml-[4vh]"
+            className="object-contain bg-[#D3D3D3]"
           />
         </div>
         <div className="z-20 mr-[4vh] flex flex-col justify-center items-center md:mt-[15vh] gap-[7vh] h-[70vh]">

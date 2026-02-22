@@ -19,7 +19,7 @@ export default function DesktopNav() {
         ></span>
         <span
           className={`block h-1 bg-white rounded transition-transform duration-300 ${
-            isOpen ? "translate-x-40 w-8" : ""
+            isOpen ? "translate-x-25 w-8" : ""
           }`}
         ></span>
         <span
