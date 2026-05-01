@@ -1,1 +1,1 @@
-view it here: [https://uoftfp.vercel.app/](url)
+View the site at https://uoftfp.vercel.app/
